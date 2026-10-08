@@ -1,0 +1,22 @@
+{
+  "model": "Discrete circular coverage; excluded cells are not RF obstacles",
+  "algorithm": "Stochastic hill climbing with local moves and uniform jumps",
+  "grid_size": 30,
+  "nodes": 5,
+  "radius_grid_units": 6.0,
+  "restricted_areas": true,
+  "seed": 42,
+  "optimizer_seed": 43,
+  "random_search_seed": 44,
+  "iterations": 1500,
+  "evaluations_per_method": 1501,
+  "target_cells": 846,
+  "initial_covered_cells": 367,
+  "optimized_covered_cells": 534,
+  "initial_coverage_percent": 43.3806146572104,
+  "optimized_coverage_percent": 63.12056737588653,
+  "improvement_percentage_points": 19.739952718676122,
+  "random_search_coverage_percent": 58.156028368794324,
+  "numpy_version": "2.3.5",
+  "matplotlib_version": "3.10.8"
+}
